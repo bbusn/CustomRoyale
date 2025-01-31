@@ -12,18 +12,24 @@
 
 ## 📍 Why this Fork ?
 
-  - Support of [ZrdRoyale](https://github.com/Zordon1337/ZrdRoyale/) to .NET 9.0
+  - Support of [ZrdRoyale](https://github.com/Zordon1337/ZrdRoyale/) to .NET 9.0 because, sadly, project not maintained
 
-  -  More server customisation
+  -  Easier to deploy (dockerfile, docker-compose, .env)
 
 
 ## ⭐ Features
 ``` 
 - Minimum Trophies and Maximum Trophies after Win
- Default amount of gems and gold
+- Default amount of gems and gold
 - Gems and gold rewards after win
 ```
 
+## ❌ Not implemented
+``` 
+- Sentry Report
+- Webhooks
+- ContentPatch
+```
 
 ## 📝 How to start
 

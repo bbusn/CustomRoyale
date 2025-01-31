@@ -10,7 +10,9 @@ namespace CustomRoyale
             Console.Clear();
             Console.Title = "CustomRoyale";
             Console.ForegroundColor = ConsoleColor.Yellow;
-
+            
+            Resources.Initialize();
+            
             Console.WriteLine("___________________________________________________________________________\n\n");
             Console.WriteLine(
                 "                  __                                            __       \n" +
