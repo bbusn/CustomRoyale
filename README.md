@@ -1,8 +1,9 @@
 <p align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM2bDNpaHY1amxndDc5dGQwOWt2bW5ucjU2cWs0eWJiMWVndmF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MY1EJgjpXUwMrzQpAk/giphy.gif" />
 </p>
-<center><b>CustomRoyale ♛</b></center>
-
+<p align="center">
+  <b>CustomRoyale ♛</b>
+</p>
 
                                  A clash royale server .NET 9.0 - 2025 
 
