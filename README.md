@@ -1,7 +1,6 @@
 <div align="center">
-
-  ## **CustomRoyale ♛**
-
+  
+  ### **CustomRoyale ♛**
 </div>
 <p align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM2bDNpaHY1amxndDc5dGQwOWt2bW5ucjU2cWs0eWJiMWVndmF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MY1EJgjpXUwMrzQpAk/giphy.gif" />
