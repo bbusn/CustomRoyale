@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using CustomRoyale.Core;
 
 namespace CustomRoyale
 {
@@ -15,7 +16,9 @@ namespace CustomRoyale
             Logger = new Logger();
             Logger.Log($"[{DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")} : Starting server...", ErrorLevel.Info);
 
+            Configuration = new Configuration();
 
+            Configuration.Initialize();
         }
 
     }
