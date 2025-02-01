@@ -3,7 +3,7 @@
   ### **CustomRoyale ♛**
 </div>
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM2bDNpaHY1amxndDc5dGQwOWt2bW5ucjU2cWs0eWJiMWVndmF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MY1EJgjpXUwMrzQpAk/giphy.gif" />
+  <img src="https://github.com/bbusn/customroyale/blob/main/readmed/enlighted_knight.webp" />
 </p>
 
                                  A clash royale server .NET 9.0 - 2025 
@@ -27,6 +27,8 @@
 - Gems and gold rewards after win
 ```
 
+![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/burning_gobelin.gif)
+
 ## ❌ Not implemented
 ``` 
 - Sentry Report
@@ -41,7 +43,7 @@
   - [MySql Database](https://www.mysql.com/)
 
 
-
+<br><br>
 
 ## 💻 Development 
 
@@ -51,11 +53,16 @@
 
 ### Steps
 
-  - Clone the repository and navigate to the project directory
+  - Clone the repository
 
 ```bash
 
 git clone https://github.com/bbusn/customroyale.git
+
+```
+  - Navigate to the project directory
+
+```bash
 
 cd customroyale/CustomRoyale
 
@@ -89,3 +96,5 @@ dotnet run
 ```
 
   - Voilà! The project should be running in a console window
+
+  ![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/celebrating_king.gif)
