@@ -2,11 +2,16 @@
   
   ### **CustomRoyale ♛**
 </div>
-<p align="center">
-  <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="700" />
-</p>
 
-                                 A clash royale server .NET 9.0 - 2025 
+<div align="center" width="600">
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="600" />
+
+```
+A clash royale server .NET 9.0 - 2025 
+```
+
+</div>
+
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -21,15 +26,19 @@
 
 
 ## ⭐ Features
+
 ``` 
 - Minimum Trophies and Maximum Trophies after Win
 - Default amount of gems and gold
 - Gems and gold rewards after win
 ```
 
-<img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
 
 ## ❌ Not implemented
+
+<img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
+In ZrdRoyale, the following features were implemented, but to ensure efficiency, they were not implemented in this fork:
+
 ``` 
 - Sentry Report
 - Webhooks
@@ -94,6 +103,6 @@ MYSQL_USER=youruser
 dotnet run
 
 ```
-  <img src="https://github.com/bbusn/customroyale/blob/main/readmed/celebrating_king.gif" width="200" />
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/celebrating_king.gif" width="200" />
   
   - Voilà! The project should be running in a console window
