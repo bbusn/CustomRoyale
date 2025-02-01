@@ -13,10 +13,11 @@
 ```
 </div>
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)   [![Dotnet](https://img.shields.io/badge/dotnet-%237a49c2.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/)   [![CSharp](https://img.shields.io/badge/C%20-Sharp-%2338B2AC.svg?logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/)
+<br><br>
+
 </div>
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)[![Dotnet](https://img.shields.io/badge/dotnet-%237a49c2.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/)[![CSharp](https://img.shields.io/badge/C%20-Sharp-%2338B2AC.svg?logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/)
-<br><br>
 
 ## 📍 Why this Fork ?
 
@@ -39,7 +40,7 @@
   <img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
 </div>
 
-### Not implemented
+### × Not implemented
 
 In ZrdRoyale, the following features existed, but to ensure efficiency, they were not implemented in this fork, matter of time. :
 
