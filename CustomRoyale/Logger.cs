@@ -23,7 +23,7 @@ namespace CustomRoyale
                 case ErrorLevel.Info:
                 {
                     _logger.Info(message);
-                    Console.WriteLine($"[{logType.ToString()}] {message}");
+                    Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                     break;
                 }
 
@@ -34,7 +34,7 @@ namespace CustomRoyale
                     lock (ConsoleSync)
                     {
                         Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                        Console.WriteLine($"[{logType.ToString()}] {message}");
+                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                         Console.ResetColor();
                     }
         #endif
@@ -48,7 +48,7 @@ namespace CustomRoyale
                     lock (ConsoleSync)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"[{logType.ToString()}] {message}");
+                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                         Console.ResetColor();
                     }
         #endif
@@ -62,7 +62,7 @@ namespace CustomRoyale
                     lock (ConsoleSync)
                     {
                         Console.ForegroundColor = ConsoleColor.DarkCyan;
-                        Console.WriteLine($"[{logType.ToString()}] {message}");
+                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                         Console.ResetColor();
                     }
         #endif

@@ -342,7 +342,7 @@ ASALocalRun/
 healthchecksdb
 
 # Server configuration file
-config.json
+lang.json
 
 # Temporary files
 temp
