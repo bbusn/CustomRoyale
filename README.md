@@ -1,6 +1,6 @@
 <div align="center">
 
-  ### **CustomRoyale ♛**
+  ## **CustomRoyale ♛**
 
 </div>
 <p align="center">
