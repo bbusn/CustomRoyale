@@ -1,5 +1,3 @@
-using System;
-using System.IO;
 using DotNetEnv;
 
 namespace CustomRoyale.Core

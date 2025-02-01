@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading;
-
-namespace CustomRoyale
+﻿namespace CustomRoyale
 {
     public static class Program
     {
@@ -9,10 +6,11 @@ namespace CustomRoyale
         {
             Console.Clear();
             Console.Title = "CustomRoyale";
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
             
             Resources.Initialize();
-            
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("___________________________________________________________________________\n\n");
             Console.WriteLine(
                 "                  __                                            __       \n" +
@@ -25,8 +23,9 @@ namespace CustomRoyale
             Console.WriteLine("Thanks to Incredible for orginal version of CR server.\nThanks to Zordon1337 for ZrdRoyale, a RetroRoyale Fork");
             Console.WriteLine("Fork of ZrdRoyale by bbusn");
             Console.WriteLine("___________________________________________________________________________\n\n");
-            Console.WriteLine("Press any key to shutdown the server....");
-                
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Logger.Log("Press ENTER to shutdown the server....", ErrorLevel.Info);
             Console.Read();
             Shutdown();
         }

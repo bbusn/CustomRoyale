@@ -346,3 +346,5 @@ lang.json
 
 # Temporary files
 temp
+
+.env

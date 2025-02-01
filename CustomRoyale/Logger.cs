@@ -1,5 +1,3 @@
-using System;
-using System.IO;
 using NLog;
 
 namespace CustomRoyale
@@ -33,7 +31,7 @@ namespace CustomRoyale
         #if DEBUG
                     lock (ConsoleSync)
                     {
-                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                         Console.ResetColor();
                     }
@@ -61,7 +59,7 @@ namespace CustomRoyale
                     _logger.Debug(message);
                     lock (ConsoleSync)
                     {
-                        Console.ForegroundColor = ConsoleColor.DarkCyan;
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
                         Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                         Console.ResetColor();
                     }
