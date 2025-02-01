@@ -9,7 +9,7 @@
 <div align="center" width="500">
 
 ```
-                    A clash royale server .NET 9.0 - 2025 
+                        A clash royale server .NET 9.0 - 2025 
 ```
 </div>
 
@@ -50,7 +50,7 @@ In ZrdRoyale, the following features existed, but to ensure efficiency, they wer
 - ContentPatch
 ```
 
-<br><br>
+<br>
 
 ## 📦 Installation
 
@@ -59,7 +59,7 @@ In ZrdRoyale, the following features existed, but to ensure efficiency, they wer
   - [MySql Database](https://www.mysql.com/)
 
 
-<br><br>
+<br>
 
 ## 💻 Development 
 
