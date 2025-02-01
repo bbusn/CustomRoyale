@@ -63,6 +63,9 @@ namespace CustomRoyale
                     Console.ForegroundColor = ConsoleColor.Red;
                     break;
                 case ErrorLevel.Debug:
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    break;
+                case ErrorLevel.Info:
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     break;
                 default:

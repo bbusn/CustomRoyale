@@ -25,7 +25,7 @@
             Console.WriteLine("___________________________________________________________________________\n\n");
             Console.ForegroundColor = ConsoleColor.Black;
 
-            Logger.Log("Press ENTER to shutdown the server....", ErrorLevel.Info);
+            Console.WriteLine("Press ENTER to shutdown the server....", ErrorLevel.Info);
             Console.Read();
             Shutdown();
         }
