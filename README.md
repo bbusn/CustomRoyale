@@ -4,21 +4,19 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="600" />
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="500" />
 
-<div align="center" width="600">
+<div align="center" width="500">
 
 ```
-A clash royale server .NET 9.0 - 2025 
+                    A clash royale server .NET 9.0 - 2025 
 ```
 </div>
 
 </div>
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)[![Dotnet](https://img.shields.io/badge/dotnet-%237a49c2.svg?logo=dotnet&logoColor=white)](https://learn.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/)[![CSharp](https://img.shields.io/badge/C%20-Sharp-%2338B2AC.svg?logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/)
 <br><br>
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
 
 ## 📍 Why this Fork ?
 
@@ -37,9 +35,12 @@ A clash royale server .NET 9.0 - 2025
 - Gems and gold rewards after win
 ```
 
-### ❌ Not implemented
+<div align="center">
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
+</div>
 
-<img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
+### Not implemented
+
 In ZrdRoyale, the following features existed, but to ensure efficiency, they were not implemented in this fork, matter of time. :
 
 ``` 
