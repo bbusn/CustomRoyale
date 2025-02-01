@@ -41,7 +41,7 @@
   - [MySql Database](https://www.mysql.com/)
 
 
-
+<br><br>
 
 ## 💻 Development 
 
@@ -51,11 +51,16 @@
 
 ### Steps
 
-  - Clone the repository and navigate to the project directory
+  - Clone the repository
 
 ```bash
 
 git clone https://github.com/bbusn/customroyale.git
+
+```
+  - Navigate to the project directory
+
+```bash
 
 cd customroyale/CustomRoyale
 
