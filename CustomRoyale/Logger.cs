@@ -76,7 +76,7 @@ namespace CustomRoyale
 
         public static void ConsoleWriteLine(object message, ErrorLevel logType = ErrorLevel.Info)
         {
-            Console.WriteLine($"[{logType}][{DateTime.Now:yyyy-MM-dd HH:mm:ss}] : {message}");
+            Console.WriteLine($"[{logType}][{DateTime.Now:HH:mm:ss}] : {message}");
         }
     }
 }
