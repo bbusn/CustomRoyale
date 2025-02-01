@@ -3,15 +3,19 @@
   ### **CustomRoyale ♛**
 </div>
 
-<div align="center" width="600">
+<div align="center">
   <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="600" />
+
+<div align="center" width="600">
 
 ```
 A clash royale server .NET 9.0 - 2025 
 ```
+</div>
 
 </div>
 
+<br><br>
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -33,17 +37,18 @@ A clash royale server .NET 9.0 - 2025
 - Gems and gold rewards after win
 ```
 
-
-## ❌ Not implemented
+### ❌ Not implemented
 
 <img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
-In ZrdRoyale, the following features were implemented, but to ensure efficiency, they were not implemented in this fork:
+In ZrdRoyale, the following features existed, but to ensure efficiency, they were not implemented in this fork, matter of time. :
 
 ``` 
 - Sentry Report
 - Webhooks
 - ContentPatch
 ```
+
+<br><br>
 
 ## 📦 Installation
 
@@ -103,6 +108,11 @@ MYSQL_USER=youruser
 dotnet run
 
 ```
-  <img src="https://github.com/bbusn/customroyale/blob/main/readme/celebrating_king.gif" width="200" />
   
   - Voilà! The project should be running in a console window
+
+<div align="center">
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/celebrating_king.gif" width="200">
+</div>
+
+<br><br>
