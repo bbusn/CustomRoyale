@@ -4,70 +4,76 @@ namespace CustomRoyale
 {
     public class Logger
     {
-#if DEBUG
         private static readonly object ConsoleSync = new object();
-#endif
 
-        private static NLog.Logger _logger = LogManager.GetCurrentClassLogger();
+        private static readonly NLog.Logger _logger = LogManager.GetCurrentClassLogger();
+
         public Logger()
         {
             Directory.CreateDirectory("Logs");
         }
 
-       public static void Log(object message, ErrorLevel logType = ErrorLevel.Info)
+        public static void Log(object message, ErrorLevel logType = ErrorLevel.Info)
+        {
+            LogToNLog(message, logType);
+        #if DEBUG
+            LogToConsole(message, logType);
+        #endif
+        }
+
+        private static void LogToNLog(object message, ErrorLevel logType)
         {
             switch (logType)
             {
                 case ErrorLevel.Info:
-                {
                     _logger.Info(message);
-                    Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
                     break;
-                }
-
                 case ErrorLevel.Warning:
-                {
                     _logger.Warn(message);
-        #if DEBUG
-                    lock (ConsoleSync)
-                    {
-                        Console.ForegroundColor = ConsoleColor.DarkYellow;
-                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
-                        Console.ResetColor();
-                    }
-        #endif
                     break;
-                }
-
                 case ErrorLevel.Error:
-                {
                     _logger.Error(message);
-        #if DEBUG
-                    lock (ConsoleSync)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
-                        Console.ResetColor();
-                    }
-        #endif
                     break;
-                }
-
                 case ErrorLevel.Debug:
-                {
-        #if DEBUG
+                #if DEBUG
                     _logger.Debug(message);
-                    lock (ConsoleSync)
-                    {
-                        Console.ForegroundColor = ConsoleColor.DarkGray;
-                        Console.WriteLine($"[{logType.ToString()} - {DateTime.Now.ToString("yyyy-MM-dd")}] {DateTime.Now.ToString(" HH:mm:ss")}] : {message}");
-                        Console.ResetColor();
-                    }
-        #endif
+                #endif
                     break;
-                }
             }
         }
 
-    } 
+        private static void LogToConsole(object message, ErrorLevel logType)
+        {
+            lock (ConsoleSync)
+            {
+                SetConsoleColor(logType);
+                ConsoleWriteLine(message, logType);
+                Console.ResetColor();
+            }
+        }
+
+        private static void SetConsoleColor(ErrorLevel logType)
+        {
+            switch (logType)
+            {
+                case ErrorLevel.Warning:
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    break;
+                case ErrorLevel.Error:
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    break;
+                case ErrorLevel.Debug:
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                    break;
+                default:
+                    Console.ResetColor();
+                    break;
+            }
+        }
+
+        public static void ConsoleWriteLine(object message, ErrorLevel logType = ErrorLevel.Info)
+        {
+            Console.WriteLine($"[{logType}][{DateTime.Now:yyyy-MM-dd HH:mm:ss}] : {message}");
+        }
+    }
 }
