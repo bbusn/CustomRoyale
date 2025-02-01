@@ -15,7 +15,9 @@
 
   - Support of [ZrdRoyale](https://github.com/Zordon1337/ZrdRoyale/) to .NET 9.0 because, sadly, project was not maintained
 
-  -  Easier to deploy (dockerfile, docker-compose, .env)
+  - Easier to deploy (dockerfile, docker-compose, .env)
+
+  - Security enhanced (Bcrypt to hash password, no SQL injections)
 
 
 ## ⭐ Features
@@ -32,8 +34,58 @@
 - ContentPatch
 ```
 
-## 📝 How to start
+## 📦 Installation
 
-#### Requirements:
+### Requirements:
   - [.NET SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
   - [MySql Database](https://www.mysql.com/)
+
+
+
+
+## 💻 Development 
+
+### Requirements:
+  - [.NET SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+  - [MySql Database](https://www.mysql.com/)
+
+### Steps
+
+  - Clone the repository and navigate to the project directory
+
+```bash
+
+git clone https://github.com/bbusn/customroyale.git
+
+cd customroyale/CustomRoyale
+
+```
+
+  - Install dependencies
+
+```bash
+
+dotnet restore
+
+```
+
+  - Create a `.env` file in the root directory and add the following environment variables
+
+```env
+
+MYSQL_DATABASE=yournamedatabase
+MYSQL_PASSWORD=yourpassword
+MYSQL_SERVER=yourserver
+MYSQL_USER=youruser
+
+```
+
+  - Run the project
+
+```bash
+
+dotnet run
+
+```
+
+  - Voilà! The project should be running in a console window
