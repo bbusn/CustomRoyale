@@ -3,7 +3,7 @@
   ### **CustomRoyale ♛**
 </div>
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM2bDNpaHY1amxndDc5dGQwOWt2bW5ucjU2cWs0eWJiMWVndmF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MY1EJgjpXUwMrzQpAk/giphy.gif" />
+  <img src="https://github.com/bbusn/customroyale/blob/main/readmed/enlighted_knight.webp" />
 </p>
 
                                  A clash royale server .NET 9.0 - 2025 
@@ -26,6 +26,8 @@
 - Default amount of gems and gold
 - Gems and gold rewards after win
 ```
+
+![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/burning_gobelin.gif)
 
 ## ❌ Not implemented
 ``` 
@@ -94,3 +96,5 @@ dotnet run
 ```
 
   - Voilà! The project should be running in a console window
+
+  ![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/celebrating_king.gif)
