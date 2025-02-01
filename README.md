@@ -3,7 +3,7 @@
   ### **CustomRoyale ♛**
 </div>
 <p align="center">
-  <img src="https://github.com/bbusn/customroyale/blob/main/readmed/enlighted_knight.webp" />
+  <img src="https://github.com/bbusn/customroyale/blob/main/readme/enlighted_knight.webp" width="700" />
 </p>
 
                                  A clash royale server .NET 9.0 - 2025 
@@ -27,7 +27,7 @@
 - Gems and gold rewards after win
 ```
 
-![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/burning_gobelin.gif)
+<img src="https://github.com/bbusn/customroyale/blob/main/readme/burning_gobelin.gif" width="200" />
 
 ## ❌ Not implemented
 ``` 
@@ -94,7 +94,6 @@ MYSQL_USER=youruser
 dotnet run
 
 ```
-
+  <img src="https://github.com/bbusn/customroyale/blob/main/readmed/celebrating_king.gif" width="200" />
+  
   - Voilà! The project should be running in a console window
-
-  ![Celebrating King](https://github.com/bbusn/customroyale/blob/main/readmed/celebrating_king.gif)
