@@ -13,7 +13,7 @@
 
 ## 📍 Why this Fork ?
 
-  - Support of [ZrdRoyale](https://github.com/Zordon1337/ZrdRoyale/) to .NET 9.0 because, sadly, project not maintained
+  - Support of [ZrdRoyale](https://github.com/Zordon1337/ZrdRoyale/) to .NET 9.0 because, sadly, project was not maintained
 
   -  Easier to deploy (dockerfile, docker-compose, .env)
 
